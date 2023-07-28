@@ -2,7 +2,7 @@
 
 Este desafio deve ser feito no hackerank, com acesso via este [link](https://www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t06-dbe-ifood)
 
-### Intrucoes
+### Instrucoes
 - Crie um fork deste repositorio
 - Clone o repositorio para sua maquina
 - Acesse o desafio no [Hackerrank](https://www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t06-dbe-ifood)
