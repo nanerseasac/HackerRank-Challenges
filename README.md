@@ -11,4 +11,4 @@ Este desafio deve ser feito no hackerank, com acesso via este [link](https://www
 - Assim que acabar, abra um PR por aqui
 - Adicione o link do seu perfil do hackerrank
 
-##### Entrega: [<Seu perfil aqui>](https://www.hackerrank.com/joao_souza1?hr_r=1)
+##### Entrega: <Seu perfil aqui>
