@@ -1,30 +1,24 @@
 function processData(input) {
-    let getIt = false
+	let getIt = false;
 	if (input === input.toLowerCase()) {
 		console.log(input);
-        getIt = true
+		getIt = true;
 	}
 	if (input === input.toUpperCase()) {
 		console.log(input.toLowerCase());
-        getIt = true
+		getIt = true;
 	}
-	const sliceWord = input.slice(0, 1);
-	const sliceWord2 = input.slice(1);
 	if (
-		sliceWord === input[0].toLowerCase() &&
-		sliceWord2 === sliceWord2.toUpperCase()
+		input[0] === input[0].toLowerCase() &&
+		input.slice(1) === input.slice(1).toUpperCase()
 	) {
-		const firsLetter = sliceWord.toUpperCase();
-		const remainLetters = sliceWord2.toLowerCase();
-		const word = firsLetter.concat(remainLetters);
+		const word = input[0].toUpperCase().concat(input.slice(1).toLowerCase());
 		console.log(word);
-        getIt = true
-	}if(!getIt) {
-        console.log(input.toLowerCase())
-    }
+		getIt = true;
+	}
+	if (!getIt) {
+		console.log(input);
+	}
 }
 
-processData("lOcK");
-
-
- 
+processData("cApS");
