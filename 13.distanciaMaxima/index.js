@@ -3,12 +3,23 @@ function processData(input) {
 	let biggestDistance = 0;
 	strToArr.shift();
 
-    const newArr = strToArr.map((numbers) => {
-        
-    })
+	const newArr = strToArr.map((numbers) => {
+		const [x, y] = numbers.split(" ").map(Number);
+		return [x, y];
+	});
 
-    console.log(newArr)
+	for (let i = 0; i < newArr.length; i++) {
+		for (let j = i + 1; j < newArr.length; j++) {
+			const calcD = Math.sqrt(
+				(newArr[j][0] - newArr[i][0]) ** 2 + (newArr[j][1] - newArr[i][1]) ** 2
+			)
+			if (biggestDistance < calcD) {
+				biggestDistance = calcD;
+			}
+		}
+	}
 
+	console.log(biggestDistance);
 }
 processData(`3
 0 0
