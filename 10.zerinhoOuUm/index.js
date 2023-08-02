@@ -22,7 +22,7 @@ solucao([
 		nome: "Herman",
 		jogada: 1,
 	},
-    {
+	{
 		nome: "Heran",
 		jogada: 1,
 	},

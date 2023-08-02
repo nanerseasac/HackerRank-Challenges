@@ -8,9 +8,9 @@ function solucao(precos) {
 		}
 	}
 	if (precos.length <= 2) {
-		console.log(total)
+		console.log(total);
 	} else {
-		const count = total - (menorPreco / 2);
+		const count = total - menorPreco / 2;
 		console.log(count);
 	}
 }
